@@ -1,13 +1,17 @@
-# Sample Hardhat Project
+# Claimable token
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a script that deploys that contract.
+1000 of tokens can be claimed once a day per user
 
-Try running some of the following tasks:
-
+## Install project
 ```shell
-npx hardhat help
+yarn init
+```
+
+## Test
+```shell
 npx hardhat test
-REPORT_GAS=true npx hardhat test
-npx hardhat node
-npx hardhat run scripts/deploy.js
+```
+## Deploy
+```shell
+npx hardhat run scripts/deployClaimToken.js
 ```
